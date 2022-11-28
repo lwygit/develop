@@ -23,16 +23,236 @@
     <script src="/js/twitter-bootstrap/4.3.1/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body style="background-color:#ffffff">
     <div class="container">
-        <h2 class="text-center">这是学习编程的主页</h2>
-    </div>
 
+    </div>
     <hr>
     <div class="container">
-        <p>一、创建这个项目的目的是整合html、css、js（主要是jquery的学习）、Bootstrap</p>
-        <p>二、尽量包含常用的技术</p>
+        <div class="jumbotron">
+            <h2 class="text-center">这是学习编程的主页</h2>
+            <p>一、创建这个项目的目的是整合html、css、js（主要是jquery的学习）、Bootstrap、Vue</p>
+            <p>二、尽量包含常用的技术</p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>H1标题</h1>
+        <H2>H2标题</H2>
+        <H3>H3标题</H3>
+        <H4>H4标题</H4>
+        <H5>H5标题</H5>
+        <H6>H6标题</H6>
+        <p>段落</p>
+        <p>使用 mark 元素来 <mark>高亮</mark> 文本。</p>
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>代表指定意义的文本颜色</h2>
+        <p class="text-muted">柔和的文本。</p>
+        <p class="text-primary">重要的文本。</p>
+        <p class="text-success">执行成功的文本。</p>
+        <p class="text-info">代表一些提示信息的文本。</p>
+        <p class="text-warning">警告文本。</p>
+        <p class="text-danger">危险操作文本。</p>
+        <p class="text-secondary">副标题。</p>
+        <p class="text-dark">深灰色文字。</p>
+        <p class="text-light">浅灰色文本（白色背景上看不清楚）。</p>
+        <p class="text-white">白色文本（白色背景上看不清楚）。</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>背景颜色</h2>
+        <p class="bg-primary text-white">重要的背景颜色。</p>
+        <p class="bg-success text-white">执行成功背景颜色。</p>
+        <p class="bg-info text-white">信息提示背景颜色。</p>
+        <p class="bg-warning text-white">警告背景颜色</p>
+        <p class="bg-danger text-white">危险背景颜色。</p>
+        <p class="bg-secondary text-white">副标题背景颜色。</p>
+        <p class="bg-dark text-white">深灰背景颜色。</p>
+        <p class="bg-light text-dark">浅灰背景颜色。</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>提示框</h2>
+        <p>提示框可以使用 .alert 类, 后面加上指定特定意义的颜色类来实现:</p>
+        <div class="alert alert-success">
+            <strong>成功!</strong> 指定操作成功提示信息。
+        </div>
+        <div class="alert alert-info">
+            <strong>信息!</strong> 请注意这个信息。
+        </div>
+        <div class="alert alert-warning">
+            <strong>警告!</strong> 设置警告信息。
+        </div>
+        <div class="alert alert-danger">
+            <strong>错误!</strong> 失败的操作
+        </div>
+        <div class="alert alert-primary">
+            <strong>首选!</strong> 这是一个重要的操作信息。
+        </div>
+        <div class="alert alert-secondary">
+            <strong>次要的!</strong> 显示一些不重要的信息。
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">关闭</button>
+            <strong>深灰色!</strong> 深灰色提示框。
+        </div>
+        <div class="alert alert-light alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>浅灰色!</strong>浅灰色提示框。
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h5>无序列表</h5>
+        <ul>
+            <li>第一项</li>
+            <li>第二项</li>
+        </ul>
+        <h5>有序列表</h5>
+        <ol>
+            <li>第一项</li>
+            <li>第二项</li>
+        </ol>
+    </div>
+    <hr>
+    <div class="container">
+        <h1>省略号底注释</h1>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+    </div>
+    <div class="container">
+        <h5>Bootstrap4网格系统</h5>
+        <p>最多分为12列</p>
+        <p>Bootstrap 4 网格系统有以下 5 个类:
+            .col- 针对所有设备
+            .col-sm- 平板 - 屏幕宽度等于或大于 576px
+            .col-md- 桌面显示器 - 屏幕宽度等于或大于 768px)
+            .col-lg- 大桌面显示器 - 屏幕宽度等于或大于 992px)
+            .col-xl- 超大桌面显示器 - 屏幕宽度等于或大于 1200px)</p>
+        <h6>例子</h6>
 
+        <div class="row text-center border">
+            <div class="col-1 border">1</div>
+            <div class="col-1 border">2</div>
+            <div class="col-1 border">3</div>
+            <div class="col-1 border">4</div>
+            <div class="col-1 border">5</div>
+            <div class="col-1 border">6</div>
+            <div class="col-1 border">7</div>
+            <div class="col-1 border">8</div>
+            <div class="col-1 border">9</div>
+            <div class="col-1 border">10</div>
+            <div class="col-1 border">11</div>
+            <div class="col-1 border">12</div>
+        </div>
+
+        <div class="row text-center border">
+            <div class="col-2 border">2</div>
+            <div class="col-3 border">3</div>
+            <div class="col-7 border">7</div>
+        </div>
+        <div class="row text-center border">
+            <div class="col-4 border">4</div>
+            <div class="col-8 border">8</div>
+        </div>
+        <div class="row text-center border">
+            <div class="col-7 border">7</div>
+            <div class="col-4 offset-1 border">位偏移offset</div>
+
+        </div>
+
+
+    </div>
+    <hr>
+    <div class="container">
+        <h5>超链接</h5>
+        <a href="#" class="text-muted">柔和的链接。</a>
+        <a href="#" class="text-primary">主要链接。</a>
+        <a href="#" class="text-success">成功链接。</a>
+        <a href="#" class="text-info">信息文本链接。</a>
+        <a href="#" class="text-warning">警告链接。</a>
+        <a href="#" class="text-danger">危险链接。</a>
+        <a href="#" class="text-secondary">副标题链接。</a>
+        <a href="#" class="text-dark">深灰色链接。</a>
+        <a href="#" class="text-light">浅灰色链接。</a>
+        <p>图片 加img-thumbnail会缩放 使用 .mx-auto (margin:auto) 和 .d-block (display:block) 类来设置图片居中对齐：
+            <img src="/icon/book.png" alt="logo">
+            <img src="/icon/book.png" class="rounded-circle img-thumbnail" alt="logo">
+        </p>
+        <h5>换行br</h5>
+        <br>
+        <h5>直线hr</h5>
+        <hr>
+    </div>
+    <div class="container">
+        <h5>name和id的区别</h5>
+        <p>name可以重复使用，给多个元素添加，id只能给一个。name属性可以在在javascript中，使用getElementsByName()来查找元素；但无法在CSS或URL中被引用</p>
+    </div>
+    <div class="container">
+        <h5>表格</h5>
+
+        <table class="table table-bordered table-hover m-auto ">
+            <caption class="text-center">表格说明caption</caption>
+            <tr class="thead-light">
+                <th class="text-center">id</th>
+                <th>name</th>
+                <th>Info</th>
+            </tr>
+            <tr class="table-primary">
+                <td>Primary</td>
+                <td>Joe</td>
+                <td>joe@example.com</td>
+            </tr>
+            <tr class="table-success">
+                <td>Success</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr class="table-danger">
+                <td>Danger</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr class="table-info">
+                <td>Info</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+            <tr class="table-warning">
+                <td>Warning</td>
+                <td>Refs</td>
+                <td>bo@example.com</td>
+            </tr>
+            <tr class="table-active">
+                <td>Active</td>
+                <td>Activeson</td>
+                <td>act@example.com</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>Secondary</td>
+                <td>Secondson</td>
+                <td>sec@example.com</td>
+            </tr>
+            <tr class="table-light">
+                <td>Light</td>
+                <td>Angie</td>
+                <td>angie@example.com</td>
+            </tr>
+            <tr class="table-dark text-dark">
+                <td>Dark</td>
+                <td>Bo</td>
+                <td>bo@example.com</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div>
+        <br><br><br>
     </div>
 </body>
 
